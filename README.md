@@ -4,7 +4,7 @@ Robot description for the KELO ROBILE's in form of URDF files and meshes
 
 ## Available KELO ROBILE bricks
 
-The following ROBILE bricks are made available as [xacro macro](http://wiki.ros.org/xacro#Macros)'s. To reduce the computational load during simulation and to protect proprietary design, the meshes provided in this package are an approximation of the real hardware. The bricks are defined in the [urdf/robile_bricks](urdf/robile_bricks/) directory.
+The following ROBILE bricks are made available as [xacro macro](http://wiki.ros.org/xacro#Macros)'s. To reduce the computational load during the simulation and to protect the proprietary design, the meshes provided in this package are an approximation of the real hardware. The bricks are defined in the [urdf/robile_bricks](urdf/robile_bricks/) directory.
 
 | ROBILE brick                | Purpose                                                                                                                                  |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
@@ -16,7 +16,7 @@ The following ROBILE bricks are made available as [xacro macro](http://wiki.ros.
 
 ## TUTORIAL: Building a custom ROBILE platform configuration
 
-The above ROBILE bricks can be used to construct customized platform's. We describe the procedure to build a new platform with a simple example. Lets assume we want to build a new platform with the name `simple_config`. This platform consists of two active wheels and two passive wheels with the following arrangement. For simplicity, lets assume we do not include any CPU or master_battery bricks in the platform. <br> ![Simple config arrangement](docs/images/simple_config_example_layout.png)
+The above ROBILE bricks can be used to construct customized platforms. We describe the procedure to build a new platform with a simple example. Let us assume we want to build a new platform with the name `simple_config`. This platform consists of two active wheels and two passive wheels with the following arrangement. For simplicity, let us assume we do not include any CPU or master_battery bricks in the platform. <br> ![Simple config arrangement](docs/images/simple_config_example_layout.png)
 
 ### Step-1: Define a new robot
 1. Since we want to name our platform `simple_config`, we create a file `simple_config.urdf.xacro` in the [robots/](robots/) directory.
