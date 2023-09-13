@@ -61,7 +61,7 @@ License LGPL and BSD license along with this program.
 
     <!-- base laser front -->
     <xacro:include filename="$(find robile_description)/urdf/sensors/hokuyo_urg04_laser.urdf.xacro"/>
-    <xacro:hokuyo_urg04_laser name="base_laser_front" parent="base" ros_topic="scan_front" update_rate="10" min_angle="-1.57" max_angle="1.57">
+    <xacro:hokuyo_urg04_laser name="base_laser_front" parent="base" ros_topic="scan" update_rate="10" min_angle="-1.57" max_angle="1.57">
     <origin xyz="0.45 0 0.22" rpy="0 0 0"/>
     </xacro:hokuyo_urg04_laser>
 

@@ -33,6 +33,7 @@
             <remapping>~/out:=/scan</remapping>
             </ros>
             <output_type>sensor_msgs/LaserScan</output_type>
+            <frame_name>${name}_link</frame_name>
 
        </plugin>
       </sensor>
